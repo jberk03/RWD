@@ -1,9 +1,20 @@
-# Rudimentary Responsive Site
+## Rudimentary Responsive Site
 
-HTML5
-CSS3
+Medium:
+HTML5 & CSS3
 
-Adding a sample school assignment to git.
+A sample school assignment to git.
 
-The primary objectives were to provide a site that would display elegantly on different viewports. It was requested that media queries and essential SEO also be coded so if the page were to be used it passed Googles ranking and search paramaters.
+The primary objectives were:
+1. provide a site that will display elegantly on different viewports
+     @viewport { width: auto; }
+     @media all and (max-width : 768px)
+     @media all and (max-width : 480px)
+     @media all and (max-width : 314px),
+3. provide a navigational menu based solely off CSS,
+     a. several drill downs
+3. keep accessibility in mind (for example, links - hovered, focus, visited),
+4. include media queries and essential SEO so if the page were active it passed Googles ranking and search paramaters
+
+Note:  Some elements were made a bit outlandish to emphasize the feature.
 
