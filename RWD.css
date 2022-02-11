@@ -271,7 +271,8 @@ p {
 		}
 
 			#links a:link{
-				color: #000000;
+				color: rgb(255, 255, 0);
+				text-decoration: underline;
 				font-weight: 700;
 				font-size: 16px;
 				text-decoration: none;
@@ -281,8 +282,9 @@ p {
 				text-decoration: none;
 			}
 			#links a:hover{
-				color: rgb(88, 248, 39);
-				font-weight: bolder;
+				color: rgb(32, 128, 3);
+				background-color: rgb(255, 255, 0);
+				font-weight: 900;
 				text-decoration: underline;
 			}
 			#links a:focus{
